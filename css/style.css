@@ -262,21 +262,49 @@ header .bottom-container button:hover {
   justify-content: space-between;
   align-items: center;
 }
-.container-company .image1 {
-  padding-left: 17rem;
-  padding-top: 6rem;
-  width: 45%;
+.container-company .parent-box2 .box-blue {
+  position: relative;
+  height: 182px;
+  width: 350px;
+  left: 200px;
+  top: 180px;
+  background-color: #BEEBFF;
+  text-align: center;
+}
+.container-company .parent-box2 .box-blue h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+}
+.container-company .parent-box2 .box-blue p {
+  color: #191919;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  padding-bottom: 60px;
+}
+.container-company .parent-box2 .box-blue .name {
+  color: #191919;
+}
+.container-company .parent-box2 .box-blue .roll {
+  color: #F94D1C;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
 }
 
 .container-right {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
 }
 .container-right .aside-right {
-  padding-right: 21rem;
+  padding-right: 20rem;
   padding-left: 17rem;
-  margin-bottom: 14rem;
+  margin-bottom: 18rem;
   margin-top: 200px;
 }
 .container-right .aside-right h6 {
@@ -298,6 +326,8 @@ header .bottom-container button:hover {
   margin-bottom: 5rem;
 }
 .container-right .btn-black {
+  position: relative;
+  top: 70px;
   background-color: #191919;
   border: solid black;
   border-radius: 35px;
@@ -323,17 +353,15 @@ header .bottom-container button:hover {
   border: 1px solid black;
 }
 .container-right .btn-play {
+  position: relative;
+  top: 90px;
+  left: 70px;
   background-color: transparent;
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   text-decoration-line: none;
   color: #191919;
-  margin-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 25px;
-  padding-right: 40px;
-  padding-left: 40px;
 }
 .container-right .btn-play i {
   margin-right: 1rem;
@@ -343,4 +371,255 @@ header .bottom-container button:hover {
 }
 .container-right .btn-play:hover {
   color: #F9D783;
+}
+
+.consulting {
+  background-color: #F0EFE9;
+  padding: 20rem;
+}
+.consulting .container {
+  text-align: left;
+}
+.consulting .container-texts h6 {
+  margin-top: -150px;
+  margin-bottom: 40px;
+  color: #F94D1C;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.consulting .container-texts h3 {
+  color: #191919;
+  font-size: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.consulting .parent-box {
+  background-color: #F0EFE9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.consulting .parent-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 50px;
+  text-align: center;
+}
+.consulting .parent-box p {
+  font-size: 16px;
+  color: #191919;
+  font-weight: 300;
+  margin-top: 30px;
+  text-align: center;
+}
+.consulting .parent-box i {
+  position: relative;
+  top: 40px;
+  font-size: 30px;
+  margin-left: 140px;
+  color: #191919;
+}
+.consulting .parent-box .box1 {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 80rem;
+  height: 300px;
+  right: 60px;
+  border: 1px solid transparent;
+}
+.consulting .parent-box .box2 {
+  position: relative;
+  width: 80rem;
+  height: 300px;
+  right: 20px;
+  background-color: #F9D783;
+  border: 1px solid transparent;
+}
+.consulting .parent-box .box3 {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 80rem;
+  height: 300px;
+  left: 20px;
+  border: 1px solid transparent;
+}
+.consulting .parent-box .box4 {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 80rem;
+  height: 300px;
+  left: 60px;
+  border: 1px solid transparent;
+}
+.consulting .btn-black {
+  position: relative;
+  top: 70px;
+  left: 350px;
+  background-color: transparent;
+  border: solid black;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration-line: none;
+  color: #191919;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.consulting .btn-black i {
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 1em;
+}
+.consulting .btn-black:hover {
+  background-color: #F9D783;
+  color: #191919;
+  border: 1px solid black;
+}
+
+.container-agency .container-text4 {
+  text-align: left;
+  position: relative;
+  left: 21rem;
+  margin-top: 2rem;
+}
+.container-agency .container-text4 h6 {
+  color: #F94D1C;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.container-agency .container-text4 h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+}
+.container-agency .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 3rem;
+  margin-left: 20rem;
+}
+.container-agency .grid-container h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #191919;
+  margin-left: 20px;
+  text-align: left;
+}
+.container-agency .grid-container h3 i {
+  color: #191919;
+  font-weight: 500;
+  font-size: 40px;
+  margin-right: 20px;
+  text-align: left;
+}
+.container-agency .grid-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #191919;
+  font-weight: 300;
+  margin-left: 80px;
+  text-align: left;
+}
+.container-agency .parent-box3 .image-girls {
+  position: relative;
+  left: 55rem;
+  bottom: 68rem;
+  size: 100px;
+}
+.container-agency .parent-box3 .box-brown {
+  position: relative;
+  height: 400px;
+  width: 1100px;
+  left: 50rem;
+  bottom: 32rem;
+  background-color: #F0EFE9;
+  text-align: center;
+}
+
+.Projects .container .title-project {
+  text-align: center;
+  position: relative;
+  bottom: 45rem;
+}
+.Projects .container .title-project p {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.Projects .container .title-project h2 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40;
+}
+.Projects .container .project-cases {
+  position: relative;
+  bottom: 40rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.Projects .container .project-cases article h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #191919;
+  padding-top: 35px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #DAD9D3;
+}
+.Projects .container .project-cases article a {
+  display: block;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #191919;
+  text-decoration-line: none;
+  padding: 15px;
+}
+.Projects .container .project-cases article a i {
+  margin-left: 10px;
+  font-weight: 300;
+}
+.Projects .container .project-cases article a:hover {
+  text-decoration-line: underline;
+}
+.Projects .container .btn-black {
+  position: relative;
+  bottom: 34rem;
+  left: 35rem;
+  background-color: black;
+  border: solid black;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration-line: none;
+  color: #FFFFFF;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.Projects .container .btn-black i {
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 1em;
+}
+.Projects .container .btn-black:hover {
+  background-color: #FFFFFF;
+  color: #191919;
+  border: 1px solid black;
 }

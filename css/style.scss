@@ -840,3 +840,67 @@ header {
   }
 }
 
+.Team-members {
+  background-color: #F0D082;
+  padding: 5rem;
+
+    .container {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+      .titel  {
+        
+        p {
+          color: #F94D1C;
+          font-size: 18px;
+          font-family: 'Inter', sans-serif;
+        }
+
+        h2 {
+          color: #191919;
+          font-size: 45px;
+          font-family: 'DM Sans', sans-serif;
+        }
+
+        .btn-black {
+          position: relative;
+          bottom: 4rem;
+          left: 55rem;
+          background-color: #F9D783;
+          border: solid black;
+          border-radius: 35px;
+          font-family: 'Inter', sans-serif;
+          font-size: 16px;
+          font-weight: 300;
+          text-decoration-line: none;
+          color: #191919;
+          margin-right: 20px;
+          padding-top: 20px;
+          padding-bottom: 25px;
+          padding-right: 40px;
+          padding-left: 40px;
+          
+          
+      
+          i {
+            margin-left: 12px;
+            font-weight: 400;
+            font-size: 1em;
+          }
+          
+          
+      
+          &:hover {
+            background-color:#FFFFFF;
+            color: #191919;
+            border: 1px solid black;
+          }
+        }
+
+
+        
+      }
+    }
+}
+

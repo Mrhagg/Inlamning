@@ -730,14 +730,14 @@ header {
   }
 
   .Projects {
-
+    margin-top: 15rem;
     .container {
       
       .title-project {
         text-align: center;
         position: relative;
         bottom: 45rem;
-
+        
         p {
           color:#F94D1C;
           font-family: 'Inter', sans-serif;
@@ -841,23 +841,36 @@ header {
 }
 
 .Team-members {
+
+  position: relative;
+  bottom: 25rem;
   background-color: #F0D082;
-  padding: 5rem;
+  padding: 70px;
+  padding-bottom: 120px;
+  
 
     .container {
+      
+       margin-top: 20rem;
+       margin-bottom: 20rem;
+
+      .titel  {
         display: flex;
         justify-content: left;
         align-items: center;
 
-      .titel  {
-        
         p {
+          position: relative;
+          bottom: 16rem;
           color: #F94D1C;
           font-size: 18px;
           font-family: 'Inter', sans-serif;
         }
 
         h2 {
+          position: relative;
+          bottom: 11rem;
+          right: 8.3rem;
           color: #191919;
           font-size: 45px;
           font-family: 'DM Sans', sans-serif;
@@ -865,8 +878,8 @@ header {
 
         .btn-black {
           position: relative;
-          bottom: 4rem;
-          left: 55rem;
+          bottom: 11rem;
+          left: 25rem;
           background-color: #F9D783;
           border: solid black;
           border-radius: 35px;
@@ -901,6 +914,163 @@ header {
 
         
       }
+
+      .members {
+        position: relative;
+        bottom:4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+  
+        article {
+  
+  
+          img {
+  
+          }
+  
+          h3 {
+            font-size: 22px;
+            color: #191919;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+            margin-top: 30px;
+          }
+  
+          p {
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            color: #191919;
+            font-weight: 300;
+  
+          }
+        }
+      }
+
+        .dot-image {
+          position: relative;
+          left: 39rem;
+        }
     }
+
+      .container-client {
+        background-color: #FFFFFF;
+        padding: 15rem;
+        
+
+        .titel-box {
+         text-align: center;
+         position: relative;
+         bottom: 10rem;
+
+          p {
+            color: #F94D1C;
+            font-size: 18px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+          }
+
+          h3 {
+            color:#191919;
+            font-size: 45px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+          }
+
+        }
+
+       
+        .clients {
+          display: flex;
+          justify-content:center;
+          align-items: start;
+          gap: 14rem;
+
+            article {
+            position: relative;
+            bottom: 3rem;
+          
+        
+            .image1 {
+              position: relative;
+              bottom: 2rem;
+            }
+
+            .image2 {
+              position: relative;
+              top: 1rem;
+              right: 3rem;
+            }
+      
+  
+            p {
+              font-size: 15px;
+              font-weight: 400;
+              color: #191919;
+              
+            }
+  
+           
+            h3 {
+              position: relative;
+              bottom: 2rem;
+              left: 3rem;
+              font-size: 22px;
+              color: #191919;
+              font-family: 'DM Sans', sans-serif;
+              font-weight: 700;
+             
+            }
+  
+            h6 {
+              position: relative;
+              left: 3rem;
+              bottom: 2rem;
+              color: #F94D1C;
+              font-size: 16px;
+              font-weight: 500;
+              font-family: 'Inter', sans-serif;
+            }
+          }
+        }
+
+        .btn-black {
+          position: relative;
+          bottom: -6rem;
+          left: 32rem;
+          background-color: black;
+          border: solid black;
+          border-radius: 35px;
+          font-family: 'Inter', sans-serif;
+          font-size: 16px;
+          font-weight: 300;
+          text-decoration-line: none;
+          color: #FFFFFF;
+          margin-right: 20px;
+          padding-top: 20px;
+          padding-bottom: 25px;
+          padding-right: 70px;
+          padding-left: 70px;
+          
+          
+      
+          i {
+            margin-left: 12px;
+            font-weight: 400;
+            font-size: 1em;
+          }
+          
+          
+      
+          &:hover {
+            background-color:#FFFFFF;
+            color: #191919;
+            border: 1px solid black;
+          }
+        }
+
+      }
 }
+
+
 

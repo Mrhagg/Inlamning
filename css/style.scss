@@ -135,7 +135,13 @@ header {
 
   .Showcase {
       background-color: #F0EFE9;
-   
+      position: relative;
+
+
+      .linetopleft {
+        position: absolute;
+        bottom: 8px;
+      }
 
 
       .container {
@@ -509,8 +515,15 @@ header {
   }
 
   .consulting {
+    position: relative;
     background-color: #F0EFE9;
     padding: 20rem;
+
+    .linemiddle {
+      position: absolute;
+      bottom: 8px;
+      right: 0;
+    }
 
 
     .container {

@@ -91,6 +91,11 @@ header .bottom-container button:hover {
 
 .Showcase {
   background-color: #F0EFE9;
+  position: relative;
+}
+.Showcase .linetopleft {
+  position: absolute;
+  bottom: 8px;
 }
 .Showcase .container {
   display: flex;
@@ -374,8 +379,14 @@ header .bottom-container button:hover {
 }
 
 .consulting {
+  position: relative;
   background-color: #F0EFE9;
   padding: 20rem;
+}
+.consulting .linemiddle {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
 }
 .consulting .container {
   text-align: left;

@@ -137,7 +137,7 @@ header {
       background-color: #F0EFE9;
       position: relative;
 
-
+      
       .linetopleft {
         position: absolute;
         bottom: 8px;
@@ -145,9 +145,11 @@ header {
 
 
       .container {
+
           display: flex;
           align-items: center;
           justify-content: space-between;
+
 
         .content-text {
 
@@ -165,17 +167,15 @@ header {
            margin-bottom: 90px;
           }
 
-        
-          
-            .btn-yellow {
+
+          .btn-yellow {
+            position: relative;
             background-color: #F9D783;
             border: solid #F9D783;
             border-radius: 35px;
-            width: 100px;
-            height: 50px;
             font-family: 'Inter', sans-serif;
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 500;
             text-decoration-line: none;
             color: #191919;
             margin-right: 20px;
@@ -183,27 +183,26 @@ header {
             padding-bottom: 20px;
             padding-right: 40px;
             padding-left: 40px;
-
-
+            
+            
+        
             i {
               margin-left: 8px;
-              font-weight: 300;
+              font-weight: 400;
               font-size: 1em;
             }
             
-            
-
+  
             &:hover {
-              background-color: #191919;
-              color: #F0EFE9;
+              background: color #191919;
+              color: #191919;
               border: 1px solid black;
             }
 
-        
           }
 
-
           .btn-transparent {
+            position: relative;
             background-color: transparent;
             border: solid black;
             border-radius: 35px;
@@ -219,29 +218,22 @@ header {
             padding-bottom: 15px;
             padding-right: 40px;
             padding-left: 40px;
-
-
+            
             i {
               margin-left: 8px;
               font-weight: 400;
               font-size: 1em;
             }
+  
             
-            
-
             &:hover {
-              background-color:#191919;
-              color: #F0EFE9;
+              background: color #191919;
+              color: #191919;
               border: 1px solid black;
-              
             }
-
-        
-          }
-
-
             
-
+          }
+        
         }
 
       }
@@ -902,21 +894,19 @@ header {
           padding-right: 40px;
           padding-left: 40px;
           
-          
-      
           i {
             margin-left: 12px;
             font-weight: 400;
             font-size: 1em;
           }
+
           
-          
-      
           &:hover {
             background-color:#FFFFFF;
             color: #191919;
             border: 1px solid black;
           }
+          
         }
 
 

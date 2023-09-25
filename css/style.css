@@ -114,14 +114,13 @@ header .bottom-container button:hover {
   margin-bottom: 90px;
 }
 .Showcase .container .content-text .btn-yellow {
+  position: relative;
   background-color: #F9D783;
   border: solid #F9D783;
   border-radius: 35px;
-  width: 100px;
-  height: 50px;
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration-line: none;
   color: #191919;
   margin-right: 20px;
@@ -132,15 +131,16 @@ header .bottom-container button:hover {
 }
 .Showcase .container .content-text .btn-yellow i {
   margin-left: 8px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1em;
 }
 .Showcase .container .content-text .btn-yellow:hover {
-  background-color: #191919;
-  color: #F0EFE9;
+  background: color #191919;
+  color: #191919;
   border: 1px solid black;
 }
 .Showcase .container .content-text .btn-transparent {
+  position: relative;
   background-color: transparent;
   border: solid black;
   border-radius: 35px;
@@ -163,8 +163,8 @@ header .bottom-container button:hover {
   font-size: 1em;
 }
 .Showcase .container .content-text .btn-transparent:hover {
-  background-color: #191919;
-  color: #F0EFE9;
+  background: color #191919;
+  color: #191919;
   border: 1px solid black;
 }
 

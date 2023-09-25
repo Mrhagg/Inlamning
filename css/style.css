@@ -176,6 +176,7 @@ header .bottom-container button:hover {
   align-items: center;
   padding-right: 25rem;
   padding-left: 50px;
+  padding-bottom: 2rem;
 }
 .parent-box .box {
   height: 90px;
@@ -188,11 +189,11 @@ header .bottom-container button:hover {
 
 .container-finance {
   display: flex;
+  justify-content: center;
+  align-items: start;
   background-color: #ffffff;
-  padding: 6rem;
-}
-.container-finance .container-text {
-  display: flex;
+  padding: 7rem;
+  border: 2px solid #F0EFE9;
 }
 .container-finance .container-text .content-2 {
   text-align: left;
@@ -409,9 +410,9 @@ header .bottom-container button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100rem;
 }
 .consulting .parent-box h3 {
-  font-size: 22px;
   font-weight: 700;
   margin-top: 50px;
   text-align: center;
@@ -427,8 +428,13 @@ header .bottom-container button:hover {
   position: relative;
   top: 40px;
   font-size: 30px;
-  margin-left: 140px;
+  margin-left: 15rem;
   color: #191919;
+}
+.consulting .parent-box i:hover {
+  background-color: #FFFFFF;
+  color: #F94D1C;
+  border-radius: 5rem;
 }
 .consulting .parent-box .box1 {
   background-color: #FFFFFF;
@@ -465,7 +471,7 @@ header .bottom-container button:hover {
 .consulting .btn-black {
   position: relative;
   top: 70px;
-  left: 350px;
+  left: 550px;
   background-color: transparent;
   border: solid black;
   border-radius: 35px;
@@ -495,15 +501,17 @@ header .bottom-container button:hover {
   text-align: left;
   position: relative;
   left: 21rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .container-agency .container-text4 h6 {
   color: #F94D1C;
   font-size: 18px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
+  padding-top: 1.5rem;
 }
 .container-agency .container-text4 h3 {
+  padding-top: 1rem;
   font-size: 45px;
   font-weight: 700;
   color: #191919;
@@ -527,9 +535,10 @@ header .bottom-container button:hover {
 .container-agency .grid-container h3 i {
   color: #191919;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 50px;
   margin-right: 20px;
   text-align: left;
+  margin-top: 10px;
 }
 .container-agency .grid-container p {
   font-family: "Inter", sans-serif;
@@ -548,7 +557,7 @@ header .bottom-container button:hover {
 .container-agency .parent-box3 .box-brown {
   position: relative;
   height: 400px;
-  width: 1100px;
+  width: 1057px;
   left: 50rem;
   bottom: 32rem;
   background-color: #F0EFE9;
@@ -556,7 +565,7 @@ header .bottom-container button:hover {
 }
 
 .Projects {
-  margin-top: 15rem;
+  margin-top: 6rem;
 }
 .Projects .container .title-project {
   text-align: center;

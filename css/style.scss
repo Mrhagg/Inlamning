@@ -514,9 +514,9 @@ header {
       }
       
       &:hover {
-        background-color: #BEEBFF;
-        color: #191919;
-        border: 1px solid #191919;
+        background-color: #191919;
+        color: #FFFFFF;
+        
       }
     }
   }
@@ -609,7 +609,7 @@ header {
 
           &:hover {
             background-color:#FFFFFF;
-            color:#F94D1C;
+            color:#191919;
             border-radius: 5rem;
           }
 
@@ -640,8 +640,14 @@ header {
             background-color: #FFFFFF;
             color: #191919;
             border-radius: 50%;
+
+            &:hover {
+              color: #FFFFFF;
+              background-color: #191919;
+            }
           }
         }
+
 
         .box3{
           background-color:#FFFFFF;
@@ -1159,14 +1165,14 @@ header {
 .Container-news {
   padding: 2rem;
 
-
+  
   .title-news {
     display: flex;
     justify-content: center;
     align-items: start;
     position: relative;
     bottom: 10rem;
-    right: 25rem;
+    right: 14rem;
 
     p {
       font-size: 18px;
@@ -1189,10 +1195,10 @@ header {
 
     .btn-black {
       position: relative;
-      left: 37rem;
+      left: 27rem;
       background-color: #FFFFFF;
       border: solid black;
-      border-radius: 35px;
+      border-radius: 50px;
       font-family: 'Inter', sans-serif;
       font-size: 16px;
       font-weight: 300;
@@ -1233,9 +1239,9 @@ header {
     bottom: 8rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 
+    
     .business {
       position: relative;
       bottom: 25px;
@@ -1249,6 +1255,10 @@ header {
       font-family: 'Inter', sans-serif;
       font-weight: 400;
 
+      span {
+        display: block;
+        line-height: 1.8;
+      }
     }
 
     h4 {
@@ -1258,16 +1268,21 @@ header {
       color: #191919;
       font-family: 'DM Sans', sans-serif;
       font-weight: 500;
+
+      span {
+        display: block;
+        line-height: 1.6;
+      }
     }
 
     .yellow-box1 {
       background-color: #F9D783;
       height: 70px;
-      width: 85px;
+      width: 65px;
       text-align: center;
       position: relative;
-      bottom: 135px;
-      left: 5.4rem;
+      bottom: 155px;
+      left: 5.0rem;
       
       h4 {
         font-family: 'DM Sans', sans-serif;
@@ -1291,11 +1306,11 @@ header {
     .yellow-box2 {
       background-color: #F9D783;
       height: 70px;
-      width: 85px;
+      width: 65px;
       text-align: center;
       position: relative;
-      bottom: 135px;
-      left: 5.5rem;
+      bottom: 155px;
+      left: 5.0rem;
 
       h4 {
         font-family: 'DM Sans', sans-serif;
@@ -1319,10 +1334,10 @@ header {
     .yellow-box3 {
       background-color: #F9D783;
       height: 70px;
-      width: 85px;
+      width: 65px;
       text-align: center;
       position: relative;
-      bottom: 135px;
+      bottom: 155px;
       left: 5.5rem;
 
       h4 {
@@ -1347,6 +1362,7 @@ header {
     .dot-lines {
       position: relative;
       left: 52rem;
+      margin-bottom: 2.5rem;
     }
 }
 
@@ -1440,20 +1456,29 @@ header {
   .crito  {
     color: #FFFFFF;
     position: relative;
-    top: 40px;
+    top: 72px;
     margin-left: 50px;
 
     p {
       position: relative;
       top: 2.5rem;
       text-align: start;
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      color: #aba8a8;
+
+
+      span {
+        display: block;
+        line-height: 1.8;
+      }
     }
   }
 
   .links {
     position: relative;
     left: 10rem;
-    bottom: 11rem;
+    bottom: 8rem;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -1473,7 +1498,7 @@ header {
       right: 4rem;
       font-family: 'Inter', sans-serif;
       font-size: 16px;
-      color: #807f7f;
+      color: #aba8a8;
       font-weight: 400;
     }
     
@@ -1505,6 +1530,7 @@ header {
 
       i {
         color: #FFFFFF;
+        background-color: #191919;
         font-size: 20px;
         margin-right: 20px;
     }

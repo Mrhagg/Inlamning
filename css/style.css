@@ -387,9 +387,8 @@ header .bottom-container button:hover {
   font-size: 31px;
 }
 .container-right .btn-play:hover {
-  background-color: #BEEBFF;
-  color: #191919;
-  border: 1px solid #191919;
+  background-color: #191919;
+  color: #FFFFFF;
 }
 
 .consulting {
@@ -465,7 +464,7 @@ header .bottom-container button:hover {
 }
 .consulting .parent-box i:hover {
   background-color: #FFFFFF;
-  color: #F94D1C;
+  color: #191919;
   border-radius: 5rem;
 }
 .consulting .parent-box .box1 {
@@ -488,6 +487,10 @@ header .bottom-container button:hover {
   background-color: #FFFFFF;
   color: #191919;
   border-radius: 50%;
+}
+.consulting .parent-box .box2 i:hover {
+  color: #FFFFFF;
+  background-color: #191919;
 }
 .consulting .parent-box .box3 {
   background-color: #FFFFFF;
@@ -893,7 +896,7 @@ header .bottom-container button:hover {
   align-items: start;
   position: relative;
   bottom: 10rem;
-  right: 25rem;
+  right: 14rem;
 }
 .Container-news .title-news p {
   font-size: 18px;
@@ -914,10 +917,10 @@ header .bottom-container button:hover {
 }
 .Container-news .title-news .btn-black {
   position: relative;
-  left: 37rem;
+  left: 27rem;
   background-color: #FFFFFF;
   border: solid black;
-  border-radius: 35px;
+  border-radius: 50px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -962,6 +965,10 @@ header .bottom-container button:hover {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+.Container-news .parent-yellowbox p span {
+  display: block;
+  line-height: 1.8;
+}
 .Container-news .parent-yellowbox h4 {
   position: relative;
   top: 2rem;
@@ -970,14 +977,18 @@ header .bottom-container button:hover {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
 }
+.Container-news .parent-yellowbox h4 span {
+  display: block;
+  line-height: 1.6;
+}
 .Container-news .parent-yellowbox .yellow-box1 {
   background-color: #F9D783;
   height: 70px;
-  width: 85px;
+  width: 65px;
   text-align: center;
   position: relative;
-  bottom: 135px;
-  left: 5.4rem;
+  bottom: 155px;
+  left: 5rem;
 }
 .Container-news .parent-yellowbox .yellow-box1 h4 {
   font-family: "DM Sans", sans-serif;
@@ -998,11 +1009,11 @@ header .bottom-container button:hover {
 .Container-news .parent-yellowbox .yellow-box2 {
   background-color: #F9D783;
   height: 70px;
-  width: 85px;
+  width: 65px;
   text-align: center;
   position: relative;
-  bottom: 135px;
-  left: 5.5rem;
+  bottom: 155px;
+  left: 5rem;
 }
 .Container-news .parent-yellowbox .yellow-box2 h4 {
   font-family: "DM Sans", sans-serif;
@@ -1023,10 +1034,10 @@ header .bottom-container button:hover {
 .Container-news .parent-yellowbox .yellow-box3 {
   background-color: #F9D783;
   height: 70px;
-  width: 85px;
+  width: 65px;
   text-align: center;
   position: relative;
-  bottom: 135px;
+  bottom: 155px;
   left: 5.5rem;
 }
 .Container-news .parent-yellowbox .yellow-box3 h4 {
@@ -1048,6 +1059,7 @@ header .bottom-container button:hover {
 .Container-news .dot-lines {
   position: relative;
   left: 52rem;
+  margin-bottom: 2.5rem;
 }
 
 .newsletter {
@@ -1121,18 +1133,25 @@ header .bottom-container button:hover {
 .info .crito {
   color: #FFFFFF;
   position: relative;
-  top: 40px;
+  top: 72px;
   margin-left: 50px;
 }
 .info .crito p {
   position: relative;
   top: 2.5rem;
   text-align: start;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #aba8a8;
+}
+.info .crito p span {
+  display: block;
+  line-height: 1.8;
 }
 .info .links {
   position: relative;
   left: 10rem;
-  bottom: 11rem;
+  bottom: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1150,7 +1169,7 @@ header .bottom-container button:hover {
   right: 4rem;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  color: #807f7f;
+  color: #aba8a8;
   font-weight: 400;
 }
 
@@ -1176,6 +1195,7 @@ header .bottom-container button:hover {
 }
 .end .container .social-media2 i {
   color: #FFFFFF;
+  background-color: #191919;
   font-size: 20px;
   margin-right: 20px;
 }

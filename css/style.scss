@@ -2,23 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@300;400;500;600;700;900&display=swap');
 header {
   html,body {
-
   }
     background-color: #F0EFE9;
     padding: 16px;
+
 
   .container {
   display: flex;
   align-items: center;
   gap: 70px;
 
+  
   img {
       padding-top: 31px;
   }
   
- 
-  
-
     .top-menu {
       display: flex;
       justify-content: space-between;
@@ -33,11 +31,12 @@ header {
           font-size: 20px;
           margin-right: 10px;
 
+
+
           &:hover {
-            color: red;
+            color: white;
           }
         }
-
       }
       
       
@@ -47,9 +46,6 @@ header {
         align-items: center;
         
         
-        
-        
-      
         .contact-box {
         padding-right: 30px;
         margin-right: 50px;
@@ -64,20 +60,15 @@ header {
           font-weight: 400;
           font-size: 20px;
           margin-right: 5px;
+          cursor: pointer;
 
           &:hover {
-            color:red;
-
+            color:white;
           }
-
+        } 
         }
-           
-        }
-        
       }
-      
     }
-    
   }
 
   .bottom-container {
@@ -87,19 +78,22 @@ header {
     padding-left: 180px;
     
     nav {
-       a {
-            display: inline-block;
-            color: #191919;
-            text-decoration-line: none;
-            margin-right: 70px;
-            position: relative;
-            font-weight: 600;
-            font-family: 'Inter', sans-serif;
 
-            &:hover {
-              background-color:#191919;
-              color:#F0EFE9;
-            }
+       a {
+          display: inline-block;
+          color: #191919;
+          text-decoration-line: none;
+          margin-right: 70px;
+          position: relative;
+          font-weight: 600;
+          font-family: 'Inter', sans-serif;
+          transition: ease-in 0.5s;
+          
+        
+           &:hover {
+             background-color:#191919;
+             color:#F0EFE9;
+         }
 
         }
     }
@@ -115,7 +109,7 @@ header {
       font-weight: 600;
       padding-left: 20px;
       padding-right: 10px;
-
+      transition: ease-in 0.5s;
       color: #191919;
 
       i {
@@ -130,7 +124,6 @@ header {
       }
     }
   }
-
   }
 
   .Showcase {
@@ -183,6 +176,7 @@ header {
             padding-bottom: 20px;
             padding-right: 40px;
             padding-left: 40px;
+            transition: ease-in 0.5s;
             
             
         
@@ -195,7 +189,7 @@ header {
   
             &:hover {
               background: color #191919;
-              color: #191919;
+              color: #FFFFFF;
               border: 1px solid black;
             }
 
@@ -218,6 +212,7 @@ header {
             padding-bottom: 15px;
             padding-right: 40px;
             padding-left: 40px;
+            transition: ease-in 0.5s;
             
             i {
               margin-left: 8px;
@@ -228,7 +223,7 @@ header {
             
             &:hover {
               background: color #191919;
-              color: #191919;
+              color: #F9D783;
               border: 1px solid black;
             }
             
@@ -317,6 +312,7 @@ header {
         text-decoration-line: none;
         color: #191919;
         text-align: center;
+        transition: ease-in 0.5s;
         
         
         i {
@@ -343,10 +339,8 @@ header {
       
 
         h3 {
-          
           font-size: 22px;
           font-family: 'DM Sans', sans-serif;
-
         }
 
         p {
@@ -366,6 +360,12 @@ header {
           font-size: 25px;
           margin-bottom: 30px;
           color:#F94D1C;
+          cursor: pointer;
+          transition: ease-out 0.5s;
+
+          &:hover {
+            color: #191919;
+          }
         }
       }
   }
@@ -477,6 +477,7 @@ header {
       padding-bottom: 25px;
       padding-right: 40px;
       padding-left: 40px;
+      transition: ease-in 0.5s;
       
       
   
@@ -506,6 +507,8 @@ header {
       font-weight: 400;
       text-decoration-line: none;
       color: #191919;
+      transition: ease-in 0.5s;
+
       
       i {
         margin-right: 10px;
@@ -515,7 +518,7 @@ header {
       
       &:hover {
         background-color: #191919;
-        color: #FFFFFF;
+        color: #BEEBFF;
         
       }
     }
@@ -567,8 +570,7 @@ header {
         justify-content:center;
         align-items:center;
         width: 100rem;
-        
-      
+
       
         h3 {
           position: relative;
@@ -604,6 +606,7 @@ header {
           color: #FFFFFF;
           background-color: #191919;
           border-radius: 100%;
+          transition: ease-out 0.5s;
           
 
 
@@ -640,6 +643,7 @@ header {
             background-color: #FFFFFF;
             color: #191919;
             border-radius: 50%;
+            
 
             &:hover {
               color: #FFFFFF;
@@ -686,6 +690,7 @@ header {
         padding-bottom: 25px;
         padding-right: 40px;
         padding-left: 40px;
+        transition: ease-in 0.5s;
         
         
     
@@ -776,6 +781,13 @@ header {
           font-size: 30px;
           color: black;
           font-weight: 700;
+          transition: ease-out 0.5s;
+          cursor: pointer;
+
+          &:hover {
+            color: red;
+          }
+
         }
 
         .text {
@@ -823,6 +835,7 @@ header {
 
   .Projects {
     margin-top: 6rem;
+
     .container {
       
       .title-project {
@@ -843,7 +856,6 @@ header {
           font-family: 'DM Sans', sans-serif;
           font-weight: 700;
           font-size: 40;
-    
         }
       }
 
@@ -882,6 +894,7 @@ header {
             text-decoration-line: none;
             padding: 15px;
             
+            
             i {
               margin-left: 10px;
               font-weight: 300;
@@ -912,6 +925,7 @@ header {
         padding-bottom: 25px;
         padding-right: 40px;
         padding-left: 40px;
+        transition: ease-in 0.5s;
         
         
     
@@ -985,6 +999,7 @@ header {
           padding-bottom: 25px;
           padding-right: 40px;
           padding-left: 40px;
+          transition: ease-in 0.5s;
           
           i {
             margin-left: 12px;
@@ -1141,6 +1156,7 @@ header {
           padding-bottom: 25px;
           padding-right: 70px;
           padding-left: 70px;
+          transition: ease-in 0.5s;
           
           
       
@@ -1209,6 +1225,7 @@ header {
       padding-bottom: 25px;
       padding-right: 70px;
       padding-left: 70px;
+      transition: ease-in 0.5s;
       
       
   
@@ -1415,6 +1432,7 @@ header {
         padding-bottom: 15px;
         padding-right: 50px;
         padding-left: 50px;
+        transition: ease-in 0.5s;
         
         
     
@@ -1532,12 +1550,18 @@ header {
       left: 8rem;
       margin-right: 20px;
       
+      
 
       i {
         color: #FFFFFF;
         background-color: #191919;
         font-size: 20px;
         margin-right: 20px;
+        transition: ease-out 0.5s;
+
+        &:hover {
+          color: red;
+        }
     }
   }
 }
@@ -1609,6 +1633,12 @@ header {
     top: 40px;
     font-size: 40px;
     margin-bottom: 10px;
+    transition: ease-out 0.5s;
+    cursor: pointer;
+
+    &:hover {
+      color: #FFFFFF;
+    }
   }
 
 
@@ -1716,6 +1746,7 @@ header {
     padding-top: 20px;
     padding-bottom: 15px;
     width: 100%;
+    transition: ease-in 0.5s;
     
     
 

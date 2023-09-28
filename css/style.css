@@ -25,7 +25,7 @@ header .container .top-menu .social-media a {
   margin-right: 10px;
 }
 header .container .top-menu .social-media a:hover {
-  color: red;
+  color: white;
 }
 header .container .top-menu .contact-information {
   display: flex;
@@ -44,9 +44,10 @@ header .container .top-menu .contact-information .contact-box i {
   font-weight: 400;
   font-size: 20px;
   margin-right: 5px;
+  cursor: pointer;
 }
 header .container .top-menu .contact-information .contact-box i:hover {
-  color: red;
+  color: white;
 }
 header .bottom-container {
   display: flex;
@@ -62,6 +63,7 @@ header .bottom-container nav a {
   position: relative;
   font-weight: 600;
   font-family: "Inter", sans-serif;
+  transition: ease-in 0.5s;
 }
 header .bottom-container nav a:hover {
   background-color: #191919;
@@ -78,6 +80,7 @@ header .bottom-container button {
   font-weight: 600;
   padding-left: 20px;
   padding-right: 10px;
+  transition: ease-in 0.5s;
   color: #191919;
 }
 header .bottom-container button i {
@@ -128,6 +131,7 @@ header .bottom-container button:hover {
   padding-bottom: 20px;
   padding-right: 40px;
   padding-left: 40px;
+  transition: ease-in 0.5s;
 }
 .Showcase .container .content-text .btn-yellow i {
   margin-left: 8px;
@@ -136,7 +140,7 @@ header .bottom-container button:hover {
 }
 .Showcase .container .content-text .btn-yellow:hover {
   background: color #191919;
-  color: #191919;
+  color: #FFFFFF;
   border: 1px solid black;
 }
 .Showcase .container .content-text .btn-transparent {
@@ -156,6 +160,7 @@ header .bottom-container button:hover {
   padding-bottom: 15px;
   padding-right: 40px;
   padding-left: 40px;
+  transition: ease-in 0.5s;
 }
 .Showcase .container .content-text .btn-transparent i {
   margin-left: 8px;
@@ -164,7 +169,7 @@ header .bottom-container button:hover {
 }
 .Showcase .container .content-text .btn-transparent:hover {
   background: color #191919;
-  color: #191919;
+  color: #F9D783;
   border: 1px solid black;
 }
 
@@ -235,6 +240,7 @@ header .bottom-container button:hover {
   text-decoration-line: none;
   color: #191919;
   text-align: center;
+  transition: ease-in 0.5s;
 }
 .container-finance .container-text .content-2 .btn-yellow-3 i {
   margin-left: 8px;
@@ -272,6 +278,11 @@ header .bottom-container button:hover {
   font-size: 25px;
   margin-bottom: 30px;
   color: #F94D1C;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+.container-finance .container-grid i:hover {
+  color: #191919;
 }
 
 .container-company {
@@ -359,6 +370,7 @@ header .bottom-container button:hover {
   padding-bottom: 25px;
   padding-right: 40px;
   padding-left: 40px;
+  transition: ease-in 0.5s;
 }
 .container-right .btn-black i {
   margin-left: 8px;
@@ -380,6 +392,7 @@ header .bottom-container button:hover {
   font-weight: 400;
   text-decoration-line: none;
   color: #191919;
+  transition: ease-in 0.5s;
 }
 .container-right .btn-play i {
   margin-right: 10px;
@@ -388,7 +401,7 @@ header .bottom-container button:hover {
 }
 .container-right .btn-play:hover {
   background-color: #191919;
-  color: #FFFFFF;
+  color: #BEEBFF;
 }
 
 .consulting {
@@ -461,6 +474,7 @@ header .bottom-container button:hover {
   color: #FFFFFF;
   background-color: #191919;
   border-radius: 100%;
+  transition: ease-out 0.5s;
 }
 .consulting .parent-box i:hover {
   background-color: #FFFFFF;
@@ -525,6 +539,7 @@ header .bottom-container button:hover {
   padding-bottom: 25px;
   padding-right: 40px;
   padding-left: 40px;
+  transition: ease-in 0.5s;
 }
 .consulting .btn-black i {
   margin-left: 12px;
@@ -596,6 +611,11 @@ header .bottom-container button:hover {
   font-size: 30px;
   color: black;
   font-weight: 700;
+  transition: ease-out 0.5s;
+  cursor: pointer;
+}
+.container-agency .grid-container .icon:hover {
+  color: red;
 }
 .container-agency .grid-container .text {
   padding: 15px;
@@ -700,6 +720,7 @@ header .bottom-container button:hover {
   padding-bottom: 25px;
   padding-right: 40px;
   padding-left: 40px;
+  transition: ease-in 0.5s;
 }
 .Projects .container .btn-black i {
   margin-left: 12px;
@@ -760,6 +781,7 @@ header .bottom-container button:hover {
   padding-bottom: 25px;
   padding-right: 40px;
   padding-left: 40px;
+  transition: ease-in 0.5s;
 }
 .Team-members .container .titel .btn-black i {
   margin-left: 12px;
@@ -875,6 +897,7 @@ header .bottom-container button:hover {
   padding-bottom: 25px;
   padding-right: 70px;
   padding-left: 70px;
+  transition: ease-in 0.5s;
 }
 .Team-members .container-client .btn-black i {
   margin-left: 12px;
@@ -931,6 +954,7 @@ header .bottom-container button:hover {
   padding-bottom: 25px;
   padding-right: 70px;
   padding-left: 70px;
+  transition: ease-in 0.5s;
 }
 .Container-news .title-news .btn-black i {
   margin-left: 12px;
@@ -1106,6 +1130,7 @@ header .bottom-container button:hover {
   padding-bottom: 15px;
   padding-right: 50px;
   padding-left: 50px;
+  transition: ease-in 0.5s;
 }
 .newsletter .container form .btn-yellow i {
   margin-left: 12px;
@@ -1203,6 +1228,10 @@ header .bottom-container button:hover {
   background-color: #191919;
   font-size: 20px;
   margin-right: 20px;
+  transition: ease-out 0.5s;
+}
+.end .container .social-media2 i:hover {
+  color: red;
 }
 
 .connect {
@@ -1264,6 +1293,11 @@ header .bottom-container button:hover {
   top: 40px;
   font-size: 40px;
   margin-bottom: 10px;
+  transition: ease-out 0.5s;
+  cursor: pointer;
+}
+.contact-container .box i:hover {
+  color: #FFFFFF;
 }
 .contact-container .box h4 {
   position: relative;
@@ -1347,6 +1381,7 @@ header .bottom-container button:hover {
   padding-top: 20px;
   padding-bottom: 15px;
   width: 100%;
+  transition: ease-in 0.5s;
 }
 .message-container .btn-yellow i {
   margin-left: 12px;

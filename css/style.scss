@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@300;400;500;600;700;900&display=swap');
+
 header {
   html,body {
   }
@@ -26,15 +27,19 @@ header {
 
 
       .social-media {
+
         a {
           color: #191919;
           font-size: 20px;
           margin-right: 10px;
+          transition: background-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.1s ease-out;
+          box-shadow: 0 2px 0 0 #353232;
 
 
 
           &:hover {
             color: white;
+            box-shadow: 0 0 0 0 #353232;
           }
         }
       }
@@ -53,6 +58,7 @@ header {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 400;
+        
         
 
         i {
@@ -87,14 +93,14 @@ header {
           position: relative;
           font-weight: 600;
           font-family: 'Inter', sans-serif;
-          transition: ease-in 0.5s;
+          border-radius: 30%;
+          transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
           
         
            &:hover {
-             background-color:#191919;
+             background-color:#b5b0a6;
              color:#F0EFE9;
          }
-
         }
     }
 
@@ -109,18 +115,19 @@ header {
       font-weight: 600;
       padding-left: 20px;
       padding-right: 10px;
-      transition: ease-in 0.5s;
       color: #191919;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shaow 0.3s ease-in-out;
+      box-shadow: 10px 5px 5px 1px #927f4e;
 
       i {
         margin-left: 10px;
         font-weight: 600;
-
       }
 
       &:hover {
         background-color: #191919;
         color: #F0EFE9;
+        box-shadow: 0 0 0 0 #927f4e;
       }
     }
   }
@@ -176,7 +183,8 @@ header {
             padding-bottom: 20px;
             padding-right: 40px;
             padding-left: 40px;
-            transition: ease-in 0.5s;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 10px 1px 0 #786d53;
             
             
         
@@ -190,7 +198,7 @@ header {
             &:hover {
               background: color #191919;
               color: #FFFFFF;
-              border: 1px solid black;
+              box-shadow: 0 0 0 0 #F9D783;
             }
 
           }
@@ -204,15 +212,16 @@ header {
             height: 50px;
             font-family: 'Inter', sans-serif;
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 500;
             text-decoration-line: none;
             color: #191919;
             margin-right: 20px;
             padding-top: 20px;
-            padding-bottom: 15px;
+            padding-bottom: 20px;
             padding-right: 40px;
             padding-left: 40px;
-            transition: ease-in 0.5s;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 10px 2px 2px #52504cab;
             
             i {
               margin-left: 8px;
@@ -225,12 +234,10 @@ header {
               background: color #191919;
               color: #F9D783;
               border: 1px solid black;
+              box-shadow: 0 0 0 0 #97948bab;
             }
-            
           }
-        
         }
-
       }
   }
 
@@ -312,7 +319,8 @@ header {
         text-decoration-line: none;
         color: #191919;
         text-align: center;
-        transition: ease-in 0.5s;
+        transition: background-color 0.3s ease-in, color 0.3s ease-in, box-shadow 0.3s ease-in;
+        box-shadow: 10px 10px 5px 2px #625840;
         
         
         i {
@@ -325,6 +333,7 @@ header {
           background-color: #191919;
           color: #F0EFE9;
           border: 1px solid black;
+          box-shadow: 0 0 0 0 #625840;
         }
       }
     }
@@ -361,7 +370,8 @@ header {
           margin-bottom: 30px;
           color:#F94D1C;
           cursor: pointer;
-          transition: ease-out 0.5s;
+          transition: color 0.3s ease-out;
+          
 
           &:hover {
             color: #191919;
@@ -477,7 +487,8 @@ header {
       padding-bottom: 25px;
       padding-right: 40px;
       padding-left: 40px;
-      transition: ease-in 0.5s;
+      transition: background-color 0.3s ease-in, color 0.3s ease-in, box-shadow 0.3s ease-in;
+      box-shadow: 10px 10px 3px 2px #666363;
       
       
   
@@ -487,12 +498,12 @@ header {
         font-size: 1em;
       }
       
-      
   
       &:hover {
         background-color:#BEEBFF;
         color: #191919;
         border: 1px solid black;
+        box-shadow: 0 0 0 0 #666363;
       }
     }
   
@@ -503,11 +514,12 @@ header {
       left: 70px;
       background-color: transparent;
       font-family: 'Inter', sans-serif;
+      border-radius: 8%;
       font-size: 25px;
       font-weight: 400;
       text-decoration-line: none;
       color: #191919;
-      transition: ease-in 0.5s;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
       
       i {
@@ -606,7 +618,7 @@ header {
           color: #FFFFFF;
           background-color: #191919;
           border-radius: 100%;
-          transition: ease-out 0.5s;
+          transition: background-color 0.3s, color 0.3s ease-out;
           
 
 
@@ -643,6 +655,7 @@ header {
             background-color: #FFFFFF;
             color: #191919;
             border-radius: 50%;
+            transition: background-color 0.3s, color 0.3s ease-out;
             
 
             &:hover {
@@ -682,7 +695,7 @@ header {
         border-radius: 35px;
         font-family: 'Inter', sans-serif;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 500;
         text-decoration-line: none;
         color: #191919;
         margin-right: 20px;
@@ -690,13 +703,14 @@ header {
         padding-bottom: 25px;
         padding-right: 40px;
         padding-left: 40px;
-        transition: ease-in 0.5s;
+        transition: background-color 0.2s ease-out, color 0.2s ease-out, box-shadow 0.2s ease-out;
+        box-shadow: 20px 10px 2px 0 #6e6141;
         
         
     
         i {
           margin-left: 12px;
-          font-weight: 400;
+          font-weight: 500;
           font-size: 1em;
         }
         
@@ -704,8 +718,9 @@ header {
     
         &:hover {
           background-color:#F9D783;
-          color: #191919;
+          color: #FFFFFF;
           border: 1px solid black;
+          box-shadow: 0 0 0 0 #6e6141;
         }
       }
 
@@ -917,7 +932,7 @@ header {
         border-radius: 35px;
         font-family: 'Inter', sans-serif;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 500;
         text-decoration-line: none;
         color: #FFFFFF;
         margin-right: 20px;
@@ -925,7 +940,8 @@ header {
         padding-bottom: 25px;
         padding-right: 40px;
         padding-left: 40px;
-        transition: ease-in 0.5s;
+        transition: background-color 0.3s ease-in, color 0.3s ease-in, box-shadow 0.3s ease-in;
+        box-shadow: 5px 5px 5px 5px #969494;
         
         
     
@@ -941,6 +957,7 @@ header {
           background-color:#FFFFFF;
           color: #191919;
           border: 1px solid black;
+          box-shadow: 0 0 0 0 #969494;
         }
       }
   }
@@ -991,7 +1008,7 @@ header {
           border-radius: 35px;
           font-family: 'Inter', sans-serif;
           font-size: 16px;
-          font-weight: 300;
+          font-weight: 500;
           text-decoration-line: none;
           color: #191919;
           margin-right: 20px;
@@ -999,7 +1016,8 @@ header {
           padding-bottom: 25px;
           padding-right: 40px;
           padding-left: 40px;
-          transition: ease-in 0.5s;
+          transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+          box-shadow: 10px 10px 5px 5px #ba9947;
           
           i {
             margin-left: 12px;
@@ -1010,8 +1028,8 @@ header {
           
           &:hover {
             background-color:#FFFFFF;
-            color: #191919;
-            border: 1px solid black;
+            color: #b0861c;
+            box-shadow: 0 0 0 0 #b0861c;
           }
           
         }
@@ -1148,7 +1166,7 @@ header {
           border-radius: 35px;
           font-family: 'Inter', sans-serif;
           font-size: 16px;
-          font-weight: 300;
+          font-weight: 500;
           text-decoration-line: none;
           color: #FFFFFF;
           margin-right: 20px;
@@ -1156,7 +1174,8 @@ header {
           padding-bottom: 25px;
           padding-right: 70px;
           padding-left: 70px;
-          transition: ease-in 0.5s;
+          transition: background-color 0.3s ease-in, color 0.3s ease-in, box-shadow 0.3s ease-in;
+          box-shadow: -10px 10px 5px 5px #8f8888;
           
           
       
@@ -1171,7 +1190,8 @@ header {
           &:hover {
             background-color:#FFFFFF;
             color: #191919;
-            border: 1px solid black;
+            box-shadow: 0 0 0 0 #8f8888;
+           
           }
         }
 
@@ -1217,7 +1237,7 @@ header {
       border-radius: 50px;
       font-family: 'Inter', sans-serif;
       font-size: 16px;
-      font-weight: 300;
+      font-weight: 500;
       text-decoration-line: none;
       color: #191919;
       margin-right: 20px;
@@ -1225,7 +1245,8 @@ header {
       padding-bottom: 25px;
       padding-right: 70px;
       padding-left: 70px;
-      transition: ease-in 0.5s;
+      transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 10px 4px 1px #8a8282;
       
       
   
@@ -1240,7 +1261,7 @@ header {
       &:hover {
         background-color:#191919;
         color: #FFFFFF;
-        border: 1px solid black;
+        box-shadow: 0 0 0 0 #8a8282;
       }
     }
 
@@ -1424,7 +1445,7 @@ header {
         border-radius: 35px;
         font-family: 'Inter', sans-serif;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 500;
         text-decoration-line: none;
         color: #191919;
         margin-right: 20px;
@@ -1432,8 +1453,8 @@ header {
         padding-bottom: 15px;
         padding-right: 50px;
         padding-left: 50px;
-        transition: ease-in 0.5s;
-        
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        box-shadow: 0 10px 0 0 #63542e;
         
     
         i {
@@ -1447,7 +1468,8 @@ header {
         &:hover {
           background-color:#191919;
           color: #FFFFFF;
-          border: 1px solid black;
+          box-shadow: 0 0 0 0 #63542e;
+          
         }
       }
 
@@ -1554,13 +1576,13 @@ header {
 
       i {
         color: #FFFFFF;
-        background-color: #191919;
+        background-color: #0E1021;
         font-size: 20px;
         margin-right: 20px;
-        transition: ease-out 0.5s;
+        transition: color 0.3s ease-in;
 
         &:hover {
-          color: red;
+          color: rgb(101, 98, 98);
         }
     }
   }
@@ -1746,8 +1768,8 @@ header {
     padding-top: 20px;
     padding-bottom: 15px;
     width: 100%;
-    transition: ease-in 0.5s;
-    
+    transition: background-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out;
+    box-shadow: 0 10px 5px 0 #3b3421;
     
 
     i {
@@ -1761,7 +1783,7 @@ header {
     &:hover {
       background-color:#191919;
       color: #FFFFFF;
-      border: 1px solid black;
+      box-shadow: 0 0 0 0 #3b3421;
     }
   }
 }

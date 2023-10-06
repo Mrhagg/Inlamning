@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@300;400;500;600;700;900&display=swap');
 
 header {
+
   html,body {
   }
     background-color: #F0EFE9;
@@ -13,7 +14,7 @@ header {
   align-items: center;
   gap: 70px;
 
-  
+ 
   img {
       padding-top: 31px;
   }
@@ -25,7 +26,6 @@ header {
       padding-bottom: 15px;
       flex: 1;
 
-
       .social-media {
 
         a {
@@ -35,8 +35,6 @@ header {
           transition: background-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.1s ease-out;
           box-shadow: 0 2px 0 0 #353232;
 
-
-
           &:hover {
             color: white;
             box-shadow: 0 0 0 0 #353232;
@@ -44,8 +42,7 @@ header {
         }
       }
       
-      
-      
+
       .contact-information {
         display: flex;
         align-items: center;
@@ -60,7 +57,6 @@ header {
         font-weight: 400;
         
         
-
         i {
           color: #191919;
           font-weight: 400;
@@ -77,34 +73,47 @@ header {
     }
   }
 
+
   .bottom-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-left: 180px;
-    
-    nav {
 
+
+    nav {
+      
        a {
           display: inline-block;
           color: #191919;
           text-decoration-line: none;
           margin-right: 70px;
           position: relative;
+          right: 2rem;
           font-weight: 600;
           font-family: 'Inter', sans-serif;
           border-radius: 30%;
-          transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
           
-        
-           &:hover {
-             background-color:#b5b0a6;
-             color:#F0EFE9;
-         }
+
+          &.active::after,
+          &:hover::after {
+            content: '';
+            position: absolute;
+            font-weight: 500;
+            height: 2px;
+            width: 15px;
+            background-color: #191919;
+            color: #FFFFFF;
+            left: 50%;
+            bottom: -3px;
+            transform: translate((calc(50% - 15px)));
+          }
         }
     }
 
     button {
+      position: relative;
+      left: 4rem;
       background-color: #F9D783;
       border: solid #F9D783;
       border-radius: 35px;
@@ -145,10 +154,9 @@ header {
 
 
       .container {
-
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
 
         .content-text {
@@ -157,8 +165,8 @@ header {
             font-size: 80px;
             font-family: 'DM Sans', sans-serif;
             font-weight: 700;
-
           }
+
 
           p {
            font-size: 20px;
@@ -200,7 +208,6 @@ header {
               color: #FFFFFF;
               box-shadow: 0 0 0 0 #F9D783;
             }
-
           }
 
           .btn-transparent {
@@ -302,7 +309,9 @@ header {
           display: block;
           line-height: 1.2;
         }     
+
       }
+
 
         .btn-yellow-3 {
         display:flex;
@@ -337,6 +346,7 @@ header {
         }
       }
     }
+
     }
 
       .container-grid {
@@ -363,6 +373,7 @@ header {
           span {
             display: block;
           }
+
         }
 
         i {
@@ -462,13 +473,13 @@ header {
 
 
       p {
+        position: relative;
+        top: 1.5rem;
         font-size: 16px;
         color: #707070;
         margin-bottom: 5rem;
         line-height: 2;
       }
-
-    
     }
 
     .btn-black {
@@ -520,18 +531,18 @@ header {
       text-decoration-line: none;
       color: #191919;
       transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-
+      
       
       i {
         margin-right: 10px;
         font-weight: 400;
         font-size: 31px;
+        border: none;
       }
       
       &:hover {
-        background-color: #191919;
-        color: #BEEBFF;
-        
+        background-color: rgb(255, 255, 255);
+        color: cadetblue;
       }
     }
   }
@@ -582,6 +593,7 @@ header {
         justify-content:center;
         align-items:center;
         width: 100rem;
+      
 
       
         h3 {
@@ -627,17 +639,14 @@ header {
             color:#191919;
             border-radius: 5rem;
           }
-
         }
 
-      
-        
 
         .box1 {
          background-color:#FFFFFF;
          position: relative;
          width: 80rem;
-         height: 300px;
+         height: 350px;
          right: 60px;
          border: 1px solid transparent;
         }
@@ -646,7 +655,7 @@ header {
         .box2 {
           position: relative;
           width: 80rem;
-          height: 300px;
+          height: 350px;
           right: 20px;
           background-color:#F9D783;
           border: 1px solid transparent;
@@ -670,7 +679,7 @@ header {
           background-color:#FFFFFF;
           position: relative;
           width: 80rem;
-          height: 300px;
+          height: 350px;
           left: 20px;
           border: 1px solid transparent;
         }
@@ -680,11 +689,12 @@ header {
           background-color:#FFFFFF;
           position: relative;
           width: 80rem;
-          height: 300px;
+          height: 350px;
           left: 60px;
           border: 1px solid transparent;
         }
       }
+
 
       .btn-black {
         position: relative;
@@ -706,16 +716,14 @@ header {
         transition: background-color 0.2s ease-out, color 0.2s ease-out, box-shadow 0.2s ease-out;
         box-shadow: 20px 10px 2px 0 #6e6141;
         
-        
-    
+
         i {
           margin-left: 12px;
           font-weight: 500;
           font-size: 1em;
         }
         
-        
-    
+
         &:hover {
           background-color:#F9D783;
           color: #FFFFFF;
@@ -786,9 +794,8 @@ header {
           right: 25rem;
           top: 3rem;
           gap: 70px;
-          
-          
         }
+
 
         .icon {
           position: relative;
@@ -802,8 +809,8 @@ header {
           &:hover {
             color: red;
           }
-
         }
+
 
         .text {
           padding: 15px;
@@ -918,7 +925,6 @@ header {
             &:hover {
               text-decoration-line: underline;
             }
-          
           }
         }
       }
@@ -944,7 +950,6 @@ header {
         box-shadow: 5px 5px 5px 5px #969494;
         
         
-    
         i {
           margin-left: 12px;
           font-weight: 400;
@@ -952,7 +957,6 @@ header {
         }
         
         
-    
         &:hover {
           background-color:#FFFFFF;
           color: #191919;
@@ -1031,12 +1035,9 @@ header {
             color: #b0861c;
             box-shadow: 0 0 0 0 #b0861c;
           }
-          
         }
-
-
-        
       }
+
 
       .members {
         position: relative;
@@ -1046,8 +1047,7 @@ header {
         gap: 30px;
   
         article {
-  
-  
+
           img {
   
           }
@@ -1065,7 +1065,6 @@ header {
             font-family: 'Inter', sans-serif;
             color: #191919;
             font-weight: 300;
-  
           }
         }
       }
@@ -1130,7 +1129,6 @@ header {
               font-size: 15px;
               font-weight: 400;
               color: #191919;
-              
             }
   
            
@@ -1142,7 +1140,6 @@ header {
               color: #191919;
               font-family: 'DM Sans', sans-serif;
               font-weight: 700;
-             
             }
   
             h6 {
@@ -1156,6 +1153,7 @@ header {
             }
           }
         }
+
 
         .btn-black {
           position: relative;
@@ -1191,10 +1189,8 @@ header {
             background-color:#FFFFFF;
             color: #191919;
             box-shadow: 0 0 0 0 #8f8888;
-           
           }
         }
-
       }
 }
 
@@ -1248,16 +1244,13 @@ header {
       transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
       box-shadow: 0 10px 4px 1px #8a8282;
       
-      
-  
+
       i {
         margin-left: 12px;
         font-weight: 400;
         font-size: 1em;
       }
       
-      
-  
       &:hover {
         background-color:#191919;
         color: #FFFFFF;
@@ -1265,12 +1258,13 @@ header {
       }
     }
 
+
     i {
       position: relative;
       left: 10px;
     }
- 
   }
+
 
   .parent-yellowbox {
     position: relative;
@@ -1282,12 +1276,12 @@ header {
     
     .business {
       position: relative;
-      bottom: 25px;
+      bottom: 10px;
     }
 
     p {
       position: relative;
-      top: 3rem;
+      top: 2rem;
       color: #6A6C71;
       font-size: 16px;
       font-family: 'Inter', sans-serif;
@@ -1299,9 +1293,10 @@ header {
       }
     }
 
+
     h4 {
       position: relative;
-      top: 2rem;
+      top: 1.5rem;
       font-size: 22px;
       color: #191919;
       font-family: 'DM Sans', sans-serif;
@@ -1463,16 +1458,13 @@ header {
           font-size: 1em;
         }
         
-        
-    
+
         &:hover {
           background-color:#191919;
           color: #FFFFFF;
           box-shadow: 0 0 0 0 #63542e;
-          
         }
       }
-
     }
   }
 }
@@ -1530,7 +1522,6 @@ header {
       padding-bottom: 20px;
       font-family: 'DM Sans', sans-serif;
       font-size: 22px;
-      
     }
 
     p {
@@ -1542,7 +1533,6 @@ header {
       color: #aba8a8;
       font-weight: 400;
     }
-    
   }
 }
 
@@ -1564,16 +1554,14 @@ header {
       font-size: 16px;
       font-family: 'Inter', sans-serif;
       font-weight: 400;
-     
     }
+
 
     .social-media2 {
       position: relative;
       left: 8rem;
       margin-right: 20px;
       
-      
-
       i {
         color: #FFFFFF;
         background-color: #0E1021;
@@ -1617,7 +1605,6 @@ header {
       position: relative;
       bottom: 10rem;
       left: 10rem;
-
     }
 
     h1 {
@@ -1655,14 +1642,13 @@ header {
     top: 40px;
     font-size: 40px;
     margin-bottom: 10px;
-    transition: ease-out 0.5s;
+    transition: ease-out 0.3s;
     cursor: pointer;
 
     &:hover {
       color: #FFFFFF;
     }
   }
-
 
   h4 {
     position: relative;
@@ -1689,9 +1675,7 @@ header {
       line-height: 1.4;
     }
   }
-
-  }
-
+ }
 }
 
 .message-container {
@@ -1699,8 +1683,6 @@ header {
   margin:5rem;
   padding: 5rem;
  
-  
-
   .Text1 {
     display: flex;
     justify-content: center;
@@ -1743,7 +1725,7 @@ header {
         margin-top: 2rem;
         padding: 20px 80px;
         border-radius: 55px;
-        height: 10rem;
+        height: 12rem;
         border: 1px solid #DAD9D3;
         margin-right: 20px;
     }
@@ -1771,13 +1753,12 @@ header {
     transition: background-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out;
     box-shadow: 0 10px 5px 0 #3b3421;
     
-
+    
     i {
       margin-left: 12px;
       font-weight: 500;
       font-size: 1em;
     }
-    
     
 
     &:hover {

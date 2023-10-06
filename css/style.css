@@ -64,16 +64,26 @@ header .bottom-container nav a {
   text-decoration-line: none;
   margin-right: 70px;
   position: relative;
+  right: 2rem;
   font-weight: 600;
   font-family: "Inter", sans-serif;
   border-radius: 30%;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-header .bottom-container nav a:hover {
-  background-color: #b5b0a6;
-  color: #F0EFE9;
+header .bottom-container nav a.active::after, header .bottom-container nav a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  color: #FFFFFF;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
 }
 header .bottom-container button {
+  position: relative;
+  left: 4rem;
   background-color: #F9D783;
   border: solid #F9D783;
   border-radius: 35px;
@@ -360,6 +370,8 @@ header .bottom-container button:hover {
   margin-bottom: 25px;
 }
 .container-right .aside-right p {
+  position: relative;
+  top: 1.5rem;
   font-size: 16px;
   color: #707070;
   margin-bottom: 5rem;
@@ -412,10 +424,11 @@ header .bottom-container button:hover {
   margin-right: 10px;
   font-weight: 400;
   font-size: 31px;
+  border: none;
 }
 .container-right .btn-play:hover {
-  background-color: #191919;
-  color: #BEEBFF;
+  background-color: rgb(255, 255, 255);
+  color: cadetblue;
 }
 
 .consulting {
@@ -499,14 +512,14 @@ header .bottom-container button:hover {
   background-color: #FFFFFF;
   position: relative;
   width: 80rem;
-  height: 300px;
+  height: 350px;
   right: 60px;
   border: 1px solid transparent;
 }
 .consulting .parent-box .box2 {
   position: relative;
   width: 80rem;
-  height: 300px;
+  height: 350px;
   right: 20px;
   background-color: #F9D783;
   border: 1px solid transparent;
@@ -525,7 +538,7 @@ header .bottom-container button:hover {
   background-color: #FFFFFF;
   position: relative;
   width: 80rem;
-  height: 300px;
+  height: 350px;
   left: 20px;
   border: 1px solid transparent;
 }
@@ -533,7 +546,7 @@ header .bottom-container button:hover {
   background-color: #FFFFFF;
   position: relative;
   width: 80rem;
-  height: 300px;
+  height: 350px;
   left: 60px;
   border: 1px solid transparent;
 }
@@ -1001,11 +1014,11 @@ header .bottom-container button:hover {
 }
 .Container-news .parent-yellowbox .business {
   position: relative;
-  bottom: 25px;
+  bottom: 10px;
 }
 .Container-news .parent-yellowbox p {
   position: relative;
-  top: 3rem;
+  top: 2rem;
   color: #6A6C71;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -1017,7 +1030,7 @@ header .bottom-container button:hover {
 }
 .Container-news .parent-yellowbox h4 {
   position: relative;
-  top: 2rem;
+  top: 1.5rem;
   font-size: 22px;
   color: #191919;
   font-family: "DM Sans", sans-serif;
@@ -1316,7 +1329,7 @@ header .bottom-container button:hover {
   top: 40px;
   font-size: 40px;
   margin-bottom: 10px;
-  transition: ease-out 0.5s;
+  transition: ease-out 0.3s;
   cursor: pointer;
 }
 .contact-container .box i:hover {
@@ -1385,7 +1398,7 @@ header .bottom-container button:hover {
   margin-top: 2rem;
   padding: 20px 80px;
   border-radius: 55px;
-  height: 10rem;
+  height: 12rem;
   border: 1px solid #DAD9D3;
   margin-right: 20px;
 }
